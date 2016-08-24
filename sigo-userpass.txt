@@ -1,0 +1,57 @@
+网康         https://192.168.1.249/   账户：sigoadmin    密码：sigo2642157280
+
+网宿CDN	     https://portal.chinanetcenter.com/cas/login?service=https%3A%2F%2Fportal.chinanetcenter.com%2Fuuc%2Fr_sec_login
+账号：shike 密码：p@ssw0rd
+
+听云基调    http://rpc.networkbench.com/rpc/index.jsp    账号：sigo    密码：！@#￥%……&*（）
+听云network  https://account.tingyun.com/cas/login?service=https://report.tingyun.com/server/cas-shiro?loginView=casLoginTingyun
+http://192.168.1.1(公司软路由)		 admin             sigo.cn@$%^
+http://192.168.1.164(exsi)     		 root		   wwq5303260 
+192.168.1.240（JIRA）	      		 administrator     shike503
+192.168.1.242（2008）	      		 administrator     p@ssw0rd
+192.168.1.22 （centos）       		 caixinyong        5303260 su -
+					 haibo		   haibo.0.
+192.168.1.198（2003）	      		 administrator     p@ssw0rd
+192.168.1.195(ERP系统)        		 administrator     p@ssw0rd
+192.168.1.197（JIRA数据库、测试数据库）  administrator     456852  数据库账号面：sigo  sigo
+192.168.1.100		      		 administrator     p@ssw0rd
+	     splunk日志服务器 		admin  haibo.0.  
+					haibo  haibo.0.
+
+
+192.168.0.99                   nanjingsigo       on.d!D5a6nMT!DDc\"TU
+192.168.0.100		       administrator     p@ssw0rd123
+       数据库 		       sigoreader        sigo!@#$%
+192.168.0.211                  administrator     iop[]\ZXC!@#$%^963
+192168.0.212                   administrator     p@ssw0rd
+192.168.0.213（windows）       administrator     p@ssw0rd！@#
+192.168.0.214（windows）       administrator     p@ssw0rd
+192.168.0.215（windows）       administrator     p@ssw0rd123
+http://192.168.0.202/zabbix/   admin             zabbix  
+			       caohaibo          haibo.0.  
+ftp://192.168.0.102（ftp）     ftpuser           sigop@sswd   （进销存）（rsync+cwrsync）  
+			       sigobackend	 msyp@ssw0rd
+			       edm               p@ssw0rd
+192.168.0.102                  haibo             p@ssw0rd   sudo su -
+192.168.0.205		       haibo		 p@ssw0rd   （nginx内网ip）   su  ';lop741^%$ASD563
+192.168.0.106（61.155.7.46）   haibo             123.com    (nginx备用环境)   sudo su -
+Memadmin                 账号：admin  密码：admin      服务器：192.168.0.102
+http://192.168.0.88:8000       sigo              sigo.cn
+
+官网和手机端的公网IP           61.155.7.41 (61.155.7.46备用环境) 		       
+
+仓库软路由http://192.168.2.1 (E4:8D:8C:BB:80:E2)  账号：admin       密码：p@ssw0rd
+RTX
+192.168.1.241    windows server 2008 RTX          账号密码：administrator  p@ssw0rd
+400电话账号后台
+http://www.4007com.com   账户密码：4007168432  F8k15p4（
+
+启通宝电话：http://self.qitongbao.com/index
+南京视客网络科技有限公司
+admin
+sigo523
+
+wiki后台：http://192.168.0.88/wiki/doku.php?id=start（停用）
+
+Email后台管理  http://exmail.qq.com/login    账号密码：sigoadmin    Sigo@20151222
+
