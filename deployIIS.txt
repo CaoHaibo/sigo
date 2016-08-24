@@ -1,6 +1,6 @@
-   ±¾ÎÄµµÊÊÓÃÓÚ"windows server 2008 r2";"iis 7.5";".Net Framework v2.0.50727" µÈËùĞèÈí¼ş°æ±¾¡£
- ÆäËûËùĞèÈí¼ş°æ±¾²¿ÊğµÄÍøÂç»·¾³£¬±¾ÎÄµµ¿ÉÓÃÓÚÖ¸µ¼ºÍ²Î¿¼¡£²¿ÊğÍøÕ¾ÏµÍ³¶Ô´ÅÅÌ×îµÍÒªÇóÎª200g¡¢cpu2ºËĞÄÊı¡¢ÄÚ´æ4gµÈ¡£
- ÏµÍ³ĞèÒªĞŞ¸ÄhostÎÄ¼ş£º
+   æœ¬æ–‡æ¡£é€‚ç”¨äº"windows server 2008 r2";"iis 7.5";".Net Framework v2.0.50727" ç­‰æ‰€éœ€è½¯ä»¶ç‰ˆæœ¬ã€‚
+ å…¶ä»–æ‰€éœ€è½¯ä»¶ç‰ˆæœ¬éƒ¨ç½²çš„ç½‘ç»œç¯å¢ƒï¼Œæœ¬æ–‡æ¡£å¯ç”¨äºæŒ‡å¯¼å’Œå‚è€ƒã€‚éƒ¨ç½²ç½‘ç«™ç³»ç»Ÿå¯¹ç£ç›˜æœ€ä½è¦æ±‚ä¸º200gã€cpu2æ ¸å¿ƒæ•°ã€å†…å­˜4gç­‰ã€‚
+ ç³»ç»Ÿéœ€è¦ä¿®æ”¹hostæ–‡ä»¶ï¼š
        192.168.0.212 backend.vsigo.cn
        192.168.0.213 open.vsigo.cn
        127.0.0.1  www.vsigo.cn 
@@ -8,120 +8,122 @@
        127.0.0.1  quan.vsigo.cn 
        127.0.0.1  images.vsigo.cn 
 
-2¡¢ËùĞè³ÌĞò°²×°
+2ã€æ‰€éœ€ç¨‹åºå®‰è£…
 
- µÚÒ»²½£º°²×°²Ù×÷ÏµÍ³¡°windows server 2008 r2¡±£¬°²×°ÎÄ¼ş¿É´ÓEXSI´æ´¢ÄÚµÄoasisÎÄ¼ş¼ĞÖĞ»ñÈ¡¡£°²×°²Ù×÷ÏµÍ³ºóĞè¼¤»î²Ù×÷ÏµÍ³£¬¼¤»î³ÌĞò¿É´Óftp://192.168.0.102/soft/»ñÈ¡£»
- µÚ¶ş²½£º°²×°iisºÍ.net£¬iis×îĞ¡»¯°²×°Ğè°²×°ÒÔÏÂÄ£¿é£º
-        ¾²Ì¬ÄÚÈİ
-        Ä¬ÈÏÎÄµµ
-        Ä¿Â¼ä¯ÀÀ
-        http´íÎó
-        httpÖØ¶¨Ïò
-        webdav·¢²¼
-        Ó¦ÓÃ³ÌĞò¿ª·¢
+ ç¬¬ä¸€æ­¥ï¼šå®‰è£…æ“ä½œç³»ç»Ÿâ€œwindows server 2008 r2â€ï¼Œå®‰è£…æ–‡ä»¶å¯ä»EXSIå­˜å‚¨å†…çš„oasisæ–‡ä»¶å¤¹ä¸­è·å–ã€‚å®‰è£…æ“ä½œç³»ç»Ÿåéœ€æ¿€æ´»æ“ä½œç³»ç»Ÿï¼Œæ¿€æ´»ç¨‹åºå¯ä»ftp://192.168.0.102/soft/è·å–ï¼›
+ ç¬¬äºŒæ­¥ï¼šå®‰è£…iiså’Œ.netï¼Œiisæœ€å°åŒ–å®‰è£…éœ€å®‰è£…ä»¥ä¸‹æ¨¡å—ï¼š
+        é™æ€å†…å®¹
+        é»˜è®¤æ–‡æ¡£
+        ç›®å½•æµè§ˆ
+        httpé”™è¯¯
+        httpé‡å®šå‘
+        webdavå‘å¸ƒ
+        åº”ç”¨ç¨‹åºå¼€å‘
         asp.net
-       .netÀ©Õ¹ĞÔ
+       .netæ‰©å±•æ€§
         asp
         cgi
-        isapiÀ©Õ¹
-        isapiÉ¸Ñ¡Æ÷
-        httpÈÕÖ¾¼ÍÂ¼
-        ÇëÇó¼àÊÓ
-        ÇëÇóÉ¸Ñ¡
-        ipºÍÓòÏŞÖÆ
-        ¾²Ì¬ÄÚÈİÑ¹Ëõ
-        ¶¯Ì¬ÄÚÈİÑ¹Ëõ
-        iis¹ÜÀí¿ØÖÆÌ¨
-        iis¹ÜÀí½Å±¾ºÍ¹¤¾ß
-        ¹ÜÀí·şÎñ
-        iis¹ÜÀí¼æÈİĞÔ
-        .NET Framework 3.5.1¹¦ÄÜ
+        isapiæ‰©å±•
+        isapiç­›é€‰å™¨
+        httpæ—¥å¿—çºªå½•
+        è¯·æ±‚ç›‘è§†
+        è¯·æ±‚ç­›é€‰
+        ipå’ŒåŸŸé™åˆ¶
+        é™æ€å†…å®¹å‹ç¼©
+        åŠ¨æ€å†…å®¹å‹ç¼©
+        iisç®¡ç†æ§åˆ¶å°
+        iisç®¡ç†è„šæœ¬å’Œå·¥å…·
+        ç®¡ç†æœåŠ¡
+        iisç®¡ç†å…¼å®¹æ€§
+        .NET Framework 3.5.1åŠŸèƒ½
 
-3¡¢ÎÄ¼şÀ´Ô´
+3ã€æ–‡ä»¶æ¥æº
 
- ³ÌĞòÎÄ¼şÀ´Ô´¿É´Óftp://192.168.0.102/SigoCN/ºÍ¸ºÔØ¾ùºâÖĞÆäËû»úÆ÷»ñÈ¡¡£
- Í¼Æ¬ÎÄ¼şÀ´Ô´¿É´Óftp://192.168.0.102/PicRoot/ºÍ¸ºÔØ¾ùºâÖĞÆäËû»úÆ÷»ñÈ¡¡£
+ ç¨‹åºæ–‡ä»¶æ¥æºå¯ä»ftp://192.168.0.102/SigoCN/å’Œè´Ÿè½½å‡è¡¡ä¸­å…¶ä»–æœºå™¨è·å–ã€‚
+ å›¾ç‰‡æ–‡ä»¶æ¥æºå¯ä»ftp://192.168.0.102/PicRoot/å’Œè´Ÿè½½å‡è¡¡ä¸­å…¶ä»–æœºå™¨è·å–ã€‚
 
-4¡¢iisÉèÖÃ
+4ã€iisè®¾ç½®
 
- µÚÒ»²½£º½¨Á¢³ÌĞòÕ¾µã£¬Õ¾µãÃû³Æ½¨ÒéÃüÃûÎª¡°VsigoCN¡±£»
- µÚ¶ş²½£º½«Ó¦ÓÃ³ÌĞòµÄ½ø³ÌÄ£Ê½£­±êÊ¾ÉèÖÃÎª¡°networkservice¡±£»ÆôÓÃ32Î»Ó¦ÓÃ³ÌĞòÉèÖÃÎª¡°Flase¡±£»ÍĞ¹Ü¹ÜµÀÄ£Ê½ÉèÖÃÎª¡°Classic¡±¡£
- µÚÈı²½£º½«Ó¦ÓÃ³ÌĞòÍĞ¹Ü¹ÜµÀÄ£Ê½ÉèÖÃÎª¾­µäÄ£Ê½¡£
- µÚËÄ²½£º½«Ä¬ÈÏÎÄµµÉèÖÃÎª"default.htm";
- µÚÎå²½£º³ÌĞòÕ¾µãĞè°ó¶¨¡°www.sigo.cn¡±¡¢¡°sigo.cn¡±¡¢¡°quan.vsigo.cn¡±¡¢¡°zhaopin.vsigo.cn¡±¡¢¡°news.vsigo.cn¡±¡¢¡°vsigo.com.cn¡±¡¢"www.vsigo.com.cn"¡¢"vsigo.cn"¡¢"www.vsigo.cn"µÈÓòÃû¡£
- µÚÁù²½£ºÍ¼Æ¬Õ¾µãĞè°ó¶¨¡°images.vsigo.cn¡±¡¢"pic0.vsigo.cn"ÖÁ¡°pic9.vsigo.cn¡±ÓòÃû¡£
- µÚÆß²½£º³ÌĞòÕ¾µãĞè½¨Á¢¡°Sigo_Themes¡±¡¢¡°sitemapxml¡±¡¢¡°ZhuanTi¡±Èı¸öĞéÄâÄ¿Â¼£¬ÉÏÊöĞèÓÚ¡°Sigo.cn\VirtualPath\¡±Ä¿Â¼ÏÂµÄÎÄ¼ş¼Ğ¶ÔÓ¦¡£
- µÚ°Ë²½£ºÌí¼ÓhttpÏìÓ¦Í·Ãû³ÆÎª¡°Vary¡±£¬ÖµÎª"Accept-Encoding"¡£
- µÚ¾Å²½£ºIIS-ASP-ÆôÓÃ¸¸Â·¾­ÉèÖÃÎª¡°True¡±¡£
- µÚÊ®²½£º³ÌĞòÕ¾µãÄ¿Â¼ºÍÍ¼Æ¬Õ¾µãÄ¿Â¼¾ùĞè¶Ô¡°SvcCWRSYNC¡±ÉèÖÃĞ´È¨ÏŞ¡£
- µÚÊ®Ò»²½£º×¢ÒâÎÄ¼ş¼°¸ù½ÚµãÎÄ¼ş¼ĞµÄÈ¨ÏŞ£¬Ôö¼Ó Network ServiceÓÃ»§£¬²¢¸ø¡°¶ÁÈ¡ºÍÖ´ĞĞ¡±È¨ÏŞ¡£
+ ç¬¬ä¸€æ­¥ï¼šå»ºç«‹ç¨‹åºç«™ç‚¹ï¼Œç«™ç‚¹åç§°å»ºè®®å‘½åä¸ºâ€œVsigoCNâ€ï¼›
+ ç¬¬äºŒæ­¥ï¼šå°†åº”ç”¨ç¨‹åºçš„è¿›ç¨‹æ¨¡å¼ï¼æ ‡ç¤ºè®¾ç½®ä¸ºâ€œnetworkserviceâ€ï¼›å¯ç”¨32ä½åº”ç”¨ç¨‹åºè®¾ç½®ä¸ºâ€œFlaseâ€ï¼›æ‰˜ç®¡ç®¡é“æ¨¡å¼è®¾ç½®ä¸ºâ€œClassicâ€ã€‚
+ ç¬¬ä¸‰æ­¥ï¼šå°†åº”ç”¨ç¨‹åºæ‰˜ç®¡ç®¡é“æ¨¡å¼è®¾ç½®ä¸ºç»å…¸æ¨¡å¼ã€‚
+ ç¬¬å››æ­¥ï¼šå°†é»˜è®¤æ–‡æ¡£è®¾ç½®ä¸º"default.htm";
+ ç¬¬äº”æ­¥ï¼šç¨‹åºç«™ç‚¹éœ€ç»‘å®šâ€œwww.sigo.cnâ€ã€â€œsigo.cnâ€ã€â€œquan.vsigo.cnâ€ã€â€œzhaopin.vsigo.cnâ€ã€â€œnews.vsigo.cnâ€ã€â€œvsigo.com.cnâ€ã€"www.vsigo.com.cn"ã€"vsigo.cn"ã€"www.vsigo.cn"ç­‰åŸŸåã€‚
+ ç¬¬å…­æ­¥ï¼šå›¾ç‰‡ç«™ç‚¹éœ€ç»‘å®šâ€œimages.vsigo.cnâ€ã€"pic0.vsigo.cn"è‡³â€œpic9.vsigo.cnâ€åŸŸåã€‚
+ ç¬¬ä¸ƒæ­¥ï¼šç¨‹åºç«™ç‚¹éœ€å»ºç«‹â€œSigo_Themesâ€ã€â€œsitemapxmlâ€ã€â€œZhuanTiâ€ä¸‰ä¸ªè™šæ‹Ÿç›®å½•ï¼Œä¸Šè¿°éœ€äºâ€œSigo.cn\VirtualPath\â€ç›®å½•ä¸‹çš„æ–‡ä»¶å¤¹å¯¹åº”ã€‚
+ ç¬¬å…«æ­¥ï¼šæ·»åŠ httpå“åº”å¤´åç§°ä¸ºâ€œVaryâ€ï¼Œå€¼ä¸º"Accept-Encoding"ã€‚
+ ç¬¬ä¹æ­¥ï¼šIIS-ASP-å¯ç”¨çˆ¶è·¯ç»è®¾ç½®ä¸ºâ€œTrueâ€ã€‚
+ ç¬¬åæ­¥ï¼šç¨‹åºç«™ç‚¹ç›®å½•å’Œå›¾ç‰‡ç«™ç‚¹ç›®å½•å‡éœ€å¯¹â€œSvcCWRSYNCâ€è®¾ç½®å†™æƒé™ã€‚
+ ç¬¬åä¸€æ­¥ï¼šæ³¨æ„æ–‡ä»¶åŠæ ¹èŠ‚ç‚¹æ–‡ä»¶å¤¹çš„æƒé™ï¼Œå¢åŠ  Network Serviceç”¨æˆ·ï¼Œå¹¶ç»™â€œè¯»å–å’Œæ‰§è¡Œâ€æƒé™ã€‚
 
-5¡¢Ê×Ò³×Ô¶¯Í¬²½
+5ã€é¦–é¡µè‡ªåŠ¨åŒæ­¥
 
- µÚÒ»²½£º°²×°¡°cwRsyncServer_4.0.5_Installer¡±Í¬²½¹¤¾ß£¬ÎÄ¼ş¿É´Ó¡°ftp://192.168.0.102/soft/¡±»ñÈ¡¡£
- µÚ¶ş²½£º±à¼­¡°C:\Program Files (x86)\ICW\rsync.config¡±£¨Í¬²½¹¤¾ß°²×°µÄÎ»ÖÃ£©£¬Ìí¼ÓÈçÏÂÄÚÈİºó²¢ÖØÆôrsyncserver·şÎñ£º
-        ¡°[default]
-        path = /cygdrive/e/Web/Sigo.cn/SigoCn/  ££³ÌĞòÕ¾µãÎÄ¼ş´æ´¢µÄÂ·¾¶¡£
+ ç¬¬ä¸€æ­¥ï¼šå®‰è£…â€œcwRsyncServer_4.0.5_Installerâ€åŒæ­¥å·¥å…·ï¼Œæ–‡ä»¶å¯ä»â€œftp://192.168.0.102/soft/â€è·å–ã€‚
+ ç¬¬äºŒæ­¥ï¼šç¼–è¾‘â€œC:\Program Files (x86)\ICW\rsync.configâ€ï¼ˆåŒæ­¥å·¥å…·å®‰è£…çš„ä½ç½®ï¼‰ï¼Œæ·»åŠ å¦‚ä¸‹å†…å®¹åå¹¶é‡å¯rsyncserveræœåŠ¡ï¼š
+        â€œ[default]
+        path = /cygdrive/e/Web/Sigo.cn/SigoCn/  ï¼ƒç¨‹åºç«™ç‚¹æ–‡ä»¶å­˜å‚¨çš„è·¯å¾„ã€‚
         read only = false
         transfer logging = yes
         uid = 0
-        gid = 0¡±
+        gid = 0â€
         
-        ¡°[sitemapxml]
-        path = /cygdrive/e/Web/Sigo.cn/VirtualPath/sitemapxml  ££³ÌĞòÕ¾µãÎÄ¼ş´æ´¢µÄÂ·¾¶¡£
+        â€œ[sitemapxml]
+        path = /cygdrive/e/Web/Sigo.cn/VirtualPath/sitemapxml  ï¼ƒç¨‹åºç«™ç‚¹æ–‡ä»¶å­˜å‚¨çš„è·¯å¾„ã€‚
         read only = false
         transfer logging = yes
         uid = 0
-        gid = 0¡±
- µÚÈı²½£º±à¼­192.168.0.212Ö÷»ú"C:\Program Files (x86)\ICW\rsync_default.bat"ÎÄ¼ş£¬Ìí¼ÓÈçÏÂÄÚÈİ£º
-   C:\"Program Files (x86)"\cwRsync\bin\rsync.exe -vt /cygdrive/d/Web/Sigo.cn/SigoCn/default.htm ²¿Êğ»úÆ÷µÄip::default
-   C:\"Program Files (x86)"\cwRsync\bin\rsync.exe -vart /cygdrive/d/Web/Sigo.cn/VirtualPath/sitemapxml/ ²¿Êğ»úÆ÷µÄip::sitemapxml
+        gid = 0â€
+ ç¬¬ä¸‰æ­¥ï¼šç¼–è¾‘192.168.0.212ä¸»æœº"C:\Program Files (x86)\ICW\rsync_default.bat"æ–‡ä»¶ï¼Œæ·»åŠ å¦‚ä¸‹å†…å®¹ï¼š
+   C:\"Program Files (x86)"\cwRsync\bin\rsync.exe -vt /cygdrive/d/Web/Sigo.cn/SigoCn/default.htm éƒ¨ç½²æœºå™¨çš„ip::default
+   C:\"Program Files (x86)"\cwRsync\bin\rsync.exe -vart /cygdrive/d/Web/Sigo.cn/VirtualPath/sitemapxml/ éƒ¨ç½²æœºå™¨çš„ip::sitemapxml
 
-6¡¢³ÌĞò×Ô¶¯Í¬²½
+6ã€ç¨‹åºè‡ªåŠ¨åŒæ­¥
 
- µÚÒ»²½£º³ÌĞòºÍÍ¼Æ¬ÎÄ¼ş£¨½ÓÊÕ¶Ë£©£¬Í¬²½±à¼­¡°C:\Program Files (x86)\ICW\rsync.config¡±£¨Í¬²½¹¤¾ß°²×°µÄÎ»ÖÃ£©£¬Ìí¼ÓÈçÏÂÄÚÈİ£º
-       ¡°[sigocn]
-       path = /cygdrive/e/Web/Sigo.cn/SigoCn/    ££³ÌĞòÕ¾µãÎÄ¼ş´æ´¢µÄÂ·¾¶¡£
+ ç¬¬ä¸€æ­¥ï¼šç¨‹åºå’Œå›¾ç‰‡æ–‡ä»¶ï¼ˆæ¥æ”¶ç«¯ï¼‰ï¼ŒåŒæ­¥ç¼–è¾‘â€œC:\Program Files (x86)\ICW\rsync.configâ€ï¼ˆåŒæ­¥å·¥å…·å®‰è£…çš„ä½ç½®ï¼‰ï¼Œæ·»åŠ å¦‚ä¸‹å†…å®¹ï¼š
+       â€œ[sigocn]
+       path = /cygdrive/e/Web/Sigo.cn/SigoCn/    ï¼ƒç¨‹åºç«™ç‚¹æ–‡ä»¶å­˜å‚¨çš„è·¯å¾„ã€‚
        read only = false
        transfer logging = yes
        uid = 0
-       gid = 0¡±
+       gid = 0â€
        
-       ¡°[VirtualPath]
-       path = /cygdrive/e/Web/Sigo.cn/VirtualPath/   ££³ÌĞòÕ¾µãÎÄ¼ş´æ´¢µÄÂ·¾¶¡£
+       â€œ[VirtualPath]
+       path = /cygdrive/e/Web/Sigo.cn/VirtualPath/   ï¼ƒç¨‹åºç«™ç‚¹æ–‡ä»¶å­˜å‚¨çš„è·¯å¾„ã€‚
        read only = false
        transfer logging = yes
        uid = 0
-       gid = 0¡±
+       gid = 0â€
        
-       ¡°[SigoUploads]
-       path = /cygdrive/e/SigoUploads/                ££³ÌĞòÕ¾µãÎÄ¼ş´æ´¢µÄÂ·¾¶¡£
+       â€œ[SigoUploads]
+       path = /cygdrive/e/SigoUploads/                ï¼ƒç¨‹åºç«™ç‚¹æ–‡ä»¶å­˜å‚¨çš„è·¯å¾„ã€‚
        read only = false
        transfer logging = yes
        uid = 0
-       gid = 0¡±
- µÚ¶ş²½£º³ÌĞòÎÄ¼ş£¨ÍÆËÍ¶Ë192.168.0.102£©£¬±à¼­¡°/opt/sersync/tmp/rsync_backup/SigoCn_sersync.xml¡±ÎÄ¼ş£¨³ÌĞòÎÄ¼ş£©£¬ĞŞ¸ÄÈçÏÂÄÚÈİ£º
+       gid = 0â€
+ ç¬¬äºŒæ­¥ï¼šç¨‹åºæ–‡ä»¶ï¼ˆæ¨é€ç«¯192.168.0.102ï¼‰ï¼Œç¼–è¾‘â€œ/opt/sersync/tmp/rsync_backup/SigoCn_sersync.xmlâ€æ–‡ä»¶ï¼ˆç¨‹åºæ–‡ä»¶ï¼‰ï¼Œä¿®æ”¹å¦‚ä¸‹å†…å®¹ï¼š
           <localpath watch="/opt/fileupload/SigoCN">
           <remote ip="192.168.0.213" name="sigocn"/>
-          <remote ip="½ÓÊÕ¶ËµÄip" name="sigocn"/>
+          <remote ip="æ¥æ”¶ç«¯çš„ip" name="sigocn"/>
           <remote ip="192.168.0.214" name="sigocn"/>
           <!--<remote ip="192.168.8.40" name="tongbu"/>-->
- µÚÈı²½£ºÍ¼Æ¬ÎÄ¼ş£¨ÍÆËÍ¶Ë192.168.0.102£©£¬±à¼­¡° /opt/sersync/tmp/rsync_backup/PicRoot_sersync.xml¡°ÎÄ¼ş£¨Í¼Æ¬ÎÄ¼ş£©ĞŞ¸ÄÄÚÈİ²Î¿¼ÉÏÊöÄÚÈİ¡£
- µÚËÄ²½£ºÖ÷Ìâ»î¶¯ÎÄ¼ş£¨ÍÆËÍ¶Ë192.168.0.102£©£¬±à¼­¡°/opt/sersync/tmp/rsync_backup/VirtualPath_sersync.xml¡±£¨Ö÷ÌâºÍ»î¶¯ÎÄ¼ş£©ĞŞ¸ÄÄÚÈİ²Î¿¼ÉÏÊöÄÚÈİ¡£
- µÚÎå²½£ºĞŞ¸ÄÍÆËÍ¶ËµÄÎÄ¼şºóĞèÖØÆôÍ¬²½·şÎñ¡£ÖØÆô³ÌĞòÍ¬²½·şÎñ²Ù×÷¹ı³ÌÈçÏÂ£º
-     ££ ps aux |grep SigoCn_sersync.xml|tail -n 1|awk '{print $2}'   ££ÕÒ³ö·şÎñÔËĞĞµÄpid£»  
-     ££ kill £­15 ¡°pid¡±                                               ££¹Ø±Õ·şÎñ£»
-     ££ /usr/bin/GNU-Linux-x86/sersync2 -d -o /opt/sersync/tmp/rsync_backup/SigoCn_sersync.xml ££ÆôÓÃÍ¬²½·şÎñ¡£
+ ç¬¬ä¸‰æ­¥ï¼šå›¾ç‰‡æ–‡ä»¶ï¼ˆæ¨é€ç«¯192.168.0.102ï¼‰ï¼Œç¼–è¾‘â€œ /opt/sersync/tmp/rsync_backup/PicRoot_sersync.xmlâ€œæ–‡ä»¶ï¼ˆå›¾ç‰‡æ–‡ä»¶ï¼‰ä¿®æ”¹å†…å®¹å‚è€ƒä¸Šè¿°å†…å®¹ã€‚
+ ç¬¬å››æ­¥ï¼šä¸»é¢˜æ´»åŠ¨æ–‡ä»¶ï¼ˆæ¨é€ç«¯192.168.0.102ï¼‰ï¼Œç¼–è¾‘â€œ/opt/sersync/tmp/rsync_backup/VirtualPath_sersync.xmlâ€ï¼ˆä¸»é¢˜å’Œæ´»åŠ¨æ–‡ä»¶ï¼‰ä¿®æ”¹å†…å®¹å‚è€ƒä¸Šè¿°å†…å®¹ã€‚
+ ç¬¬äº”æ­¥ï¼šä¿®æ”¹æ¨é€ç«¯çš„æ–‡ä»¶åéœ€é‡å¯åŒæ­¥æœåŠ¡ã€‚é‡å¯ç¨‹åºåŒæ­¥æœåŠ¡æ“ä½œè¿‡ç¨‹å¦‚ä¸‹ï¼š
+     ï¼ƒ ps aux |grep SigoCn_sersync.xml|tail -n 1|awk '{print $2}'   ï¼ƒæ‰¾å‡ºæœåŠ¡è¿è¡Œçš„pidï¼›  
+     ï¼ƒ kill ï¼15 â€œpidâ€                                               ï¼ƒå…³é—­æœåŠ¡ï¼›
+     ï¼ƒ /usr/bin/GNU-Linux-x86/sersync2 -d -o /opt/sersync/tmp/rsync_backup/SigoCn_sersync.xml ï¼ƒå¯ç”¨åŒæ­¥æœåŠ¡ã€‚
      
-     ££ ps aux |grep PicRoot_sersync.xml|tail -n 1|awk '{print $2}'
-     ££ kill £­15 ¡°pid¡±
-     ££ /usr/bin/GNU-Linux-x86/sersync2 -d -o /opt/sersync/tmp/rsync_backup/PicRoot_sersync.xml
+     ï¼ƒ ps aux |grep PicRoot_sersync.xml|tail -n 1|awk '{print $2}'
+     ï¼ƒ kill ï¼15 â€œpidâ€
+     ï¼ƒ /usr/bin/GNU-Linux-x86/sersync2 -d -o /opt/sersync/tmp/rsync_backup/PicRoot_sersync.xml
      
-     ££ ps aux |grep VirtualPath_sersync.xml|tail -n 1|awk '{print $2}'
-     ££ kill £­15 ¡°pid¡±
-     ££ /usr/bin/GNU-Linux-x86/sersync2 -d -o /opt/sersync/tmp/rsync_backup/VirtualPath_sersync.xml
-     ×¢£º×¢Òâ102·şÎñ½ø³ÌÖĞ£¬Í¬Ê±´æÔÚÁ½¸öÒ»ÑùµÄ·şÎñÔÚÔËĞĞ£¬¿ÉÄÜ»áµ¼ÖÂ²»½øĞĞÍ¬²½¡£
+     ï¼ƒ ps aux |grep VirtualPath_sersync.xml|tail -n 1|awk '{print $2}'
+     ï¼ƒ kill ï¼15 â€œpidâ€
+     ï¼ƒ /usr/bin/GNU-Linux-x86/sersync2 -d -o /opt/sersync/tmp/rsync_backup/VirtualPath_sersync.xml
+     æ³¨ï¼šæ³¨æ„102æœåŠ¡è¿›ç¨‹ä¸­ï¼ŒåŒæ—¶å­˜åœ¨ä¸¤ä¸ªä¸€æ ·çš„æœåŠ¡åœ¨è¿è¡Œï¼Œå¯èƒ½ä¼šå¯¼è‡´ä¸è¿›è¡ŒåŒæ­¥ã€‚
 
-7¡¢ÑéÖ¤²âÊÔ
+7ã€éªŒè¯æµ‹è¯•
 
- ÉÏÊö¹ı³ÌÍê³Éºó£¬¿É½«²¿ÊğµÄ»úÆ÷Ìí¼ÓÖÁ¸ºÔØ¾ùºâ±¸ÓÃ»·¾³£¨61.155.7.46£©ÖĞ²âÊÔ£¬ÑéÖ¤²âÊÔ·½·¨Çë²Î¿¼ÔËÓª×«Ğ´µÄ²âÊÔÁĞ±í¡£
+ ä¸Šè¿°è¿‡ç¨‹å®Œæˆåï¼Œå¯å°†éƒ¨ç½²çš„æœºå™¨æ·»åŠ è‡³è´Ÿè½½å‡è¡¡å¤‡ç”¨ç¯å¢ƒï¼ˆ61.155.7.46ï¼‰ä¸­æµ‹è¯•ï¼ŒéªŒè¯æµ‹è¯•æ–¹æ³•è¯·å‚è€ƒè¿è¥æ’°å†™çš„æµ‹è¯•åˆ—è¡¨ã€‚
+ 
+ æ³¨æ„ï¼šæµ‹è¯•ç¯å¢ƒä¸­ä¿æŒä¸çº¿ä¸Šé‡å†™ä»¥åŠé…ç½®ç›¸åŒã€‚
